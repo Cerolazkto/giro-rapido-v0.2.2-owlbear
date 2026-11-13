@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Giro Rápido — Rodinha do Mouse",
+  "description": "Captura a roda do mouse ao segurar um token com a ferramenta Giro Rápido no Owlbear.",
+  "version": "0.2.2",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.owlbear.rodeo/*",
+        "https://owlbear.rodeo/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

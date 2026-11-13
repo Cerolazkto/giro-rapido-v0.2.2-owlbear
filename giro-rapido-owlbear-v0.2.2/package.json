@@ -1,0 +1,22 @@
+{
+  "name": "giro-rapido-owlbear",
+  "version": "0.2.2",
+  "private": true,
+  "type": "module",
+  "description": "Rotacao com scroll via companheiro Chrome ou Edge; alternativa E / Shift+E.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@owlbear-rodeo/sdk": "^3.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Giro Rápido",
+  "version": "0.2.2",
+  "manifest_version": 1,
+  "description": "Segure um token e gire com a rodinha do mouse usando o complemento Chrome/Edge. Passo configurável (15° por padrão).",
+  "author": "Projeto independente",
+  "icon": "/icon.svg",
+  "background_url": "/background.html?giroBridge=1"
+}
